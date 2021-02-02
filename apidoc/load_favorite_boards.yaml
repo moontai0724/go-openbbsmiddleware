@@ -3,8 +3,9 @@
 tags:
   - user
   - board
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'user_id'
     in: 'path'
     required: true

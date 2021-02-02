@@ -4,8 +4,9 @@ tags:
   - article
   - comment
 description: get user comment list, sorted by time.
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'bid'
     in: 'path'
     type: string

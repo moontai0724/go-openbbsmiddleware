@@ -4,8 +4,9 @@ tags:
   - board
   - user
 description: 讀取板的上線板友名單
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'bid'
     in: 'path'
     required: true

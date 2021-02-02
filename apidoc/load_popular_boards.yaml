@@ -2,8 +2,8 @@
 ---
 tags:
   - board
-parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
+security:
+  - authorization: []
 responses:
   200:
     description:

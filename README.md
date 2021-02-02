@@ -89,6 +89,8 @@ You can run swagger with:
 
 您可以做以下的事情將 swagger 跑起來:
 
+* `sudo apt install python3 python3-setuptools` - We use python to process some transform, and use `python3-setuptools` for package management.
+* `sudo python3 ./apidoc/setup.py install` - Install python packages that we used here.
 * `./scripts/swagger.sh [host]`
 * go to `http://localhost:5000`
 

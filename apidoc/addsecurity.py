@@ -13,7 +13,7 @@ with open(filename, 'r') as f:
 
 components = the_struct.get('components', {})
 components['securitySchemes'] = {
-    'default': {
+    'authorization': {
         'type': 'http',
         'scheme': 'bearer',
     },
@@ -21,9 +21,6 @@ components['securitySchemes'] = {
 
 to_update = {
     'components': components,
-    'security': {
-        'default': [],
-    },
 }
 
 the_struct.update(to_update)

@@ -2,8 +2,9 @@ GetBoardSummary
 ---
 tags:
   - board
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'bid'
     in: 'path'
 responses:

@@ -4,8 +4,9 @@ tags:
   - board
   - article
 description: 讀置底文章.
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'bid'
     in: 'path'
     required: true

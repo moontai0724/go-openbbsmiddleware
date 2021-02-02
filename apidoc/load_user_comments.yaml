@@ -4,8 +4,9 @@ tags:
   - user
   - comment
 description: 列出使用者的所有 comments. 從最新開始往前拉. 拉回時舊的排在前面.
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'user_id'
     in: 'path'
     type: string

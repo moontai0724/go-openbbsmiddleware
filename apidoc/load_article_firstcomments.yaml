@@ -4,8 +4,9 @@ tags:
   - article
   - comment
 description: 讀置頂 comments.
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'bid'
     in: 'path'
     type: string

@@ -3,8 +3,9 @@
 tags:
   - article
 description: get popular post list, sorted by popularity. displaying most popular on the top.
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - '$ref': '#/definitions/ParamsStartIdx'
   - '$ref': '#/definitions/ParamsLimit'
   - '$ref': '#/definitions/ParamsDesc'

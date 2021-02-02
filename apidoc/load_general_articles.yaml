@@ -4,8 +4,9 @@ tags:
   - board
   - article
 description: 讀取板裡的文章列表, 呈現時舊的排前面.
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'bid'
     in: 'path'
     required: true

@@ -3,8 +3,9 @@
 tags:
   - board
 description: 列出所有板, 以類別優先排序 (可用英文板名搜尋)
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'title'
     in: 'query'
     required: false

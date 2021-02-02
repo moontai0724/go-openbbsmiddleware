@@ -2,8 +2,9 @@ Attempt Change Email
 ---
 tags:
   - user
+security:
+  - authorization: []
 parameters:
-  - '$ref': '#/definitions/ParamsAuthorization'
   - name: 'user_id'
     in: 'path'
     required: true
